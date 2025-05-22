@@ -1,10 +1,11 @@
 import { Box, Button, TextField } from '@mui/material'
 import React from 'react'
+import Header from '../components/Header'
 
 const HomePage = () => {
   return (
     <>
-        <h2>Welcome to  Todo App</h2>
+        <Header/>
         <Box sx={{display:'flex',alignItems:'center',justifyContent:'space-between',width:'50%',mx:'auto',marginTop:'20px'}}>
             
             <TextField fullWidth sx={{width:'60%'}} label='Enter your task' variant='outlined' />
